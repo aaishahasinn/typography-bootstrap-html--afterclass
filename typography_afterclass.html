@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>typography(bootstrap)- afterclass</title>
+    
+    <!---bootstrap connection links--->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    
+    <!---font embed links(courier prime)--->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&display=swap" rel="stylesheet">
+
+	<style type="text/css">
+		body{
+			background-color: #EEEEEE;
+			color: #333333;
+			font-family: "Afacad Flux", system-ui;
+		}
+		label{
+			font-size: 20px;
+			font-weight: bold;
+		}
+		#headings-with-displays{
+			background-color: #ffffff;
+			padding: 30px;
+		}
+		#paragraph-classes{
+			background-color: #ffffff;
+			padding: 30px;
+		}
+		#blockquotes{
+			background-color: #ffffff;
+			padding: 30px;
+		}
+		#text-muted-part{
+			background-color: #ffffff;
+			padding: 30px;
+		}
+		#colored-text-classes{
+			background-color: #ffffff;
+			padding: 30px;
+		}
+		#normal-colored-text{
+			background-color: #ffffff;
+			padding: 30px;
+		}
+        #lists-part{
+            background-color: #ffffff;
+            padding: 60px;
+        }
+        #text-decoration-part{
+            background-color: #ffffff;
+            padding: 60px;
+        }
+        #font-weight-classes-part{
+            background-color: #ffffff;
+            padding: 60px;
+        }
+	</style>
+</head>
+<body>
+ <h1 style="margin-left: 30px; font-size: 150px; font-family: 'Courier New',monospace; font-weight: bolder; color: #645b56;">typography</h1>
+    
+    <br>
+    <h1 style="margin-left: 200px; color: #B6C2C5;">heading-display classes part</h1>
+
+ <div class="container">
+  <div class="row"> 
+   <div class="col">
+
+        <div id="headings-with-displays">
+   	<!---headings and displays part--->
+   	<h1 class="display-1">typography</h1>
+   	<h1 class="display-2">typography</h1>
+   	<h1 class="display-3">typography</h1>
+   	<h1 class="display-4">typography</h1>
+   	<label class="text-muted">h1 with displays 1 to 4</label>
+
+   	<br><br>
+
+   	<h1>typography</h1>
+   	<label class="text-muted">h1 with no displays</label>
+
+   	<br><br>
+    
+    <label style="font-family: 'Courier Prime', monospace; font-size: 30px; color: #8C8C8C;">these displays(1-4) can be used on all headings, h1 to h6(h1, h2, h3, h4, h5 and h6)</label>
+        </div> 
+   </div>
+  </div> 
+ </div>
+    
+    <br>
+    <h1 style="margin-left: 200px; color: #B6C2C5;">paragraph classes part</h1>
+
+ <div class="container">
+  <div class="row">
+   <div class="col">
+        <div id="paragraph-classes">
+    <!---paragraph classes part--->
+    
+    <br>
+
+    <p class="lead" style="font-size: 25px;">dummy text dummy text dummy text dummy text dummy text dummy text dummy text dummy text dummy text dummy text dummy text dummy text dummy text dummy text dummy text dummy text dummy text dummy text dummy text dummy text dummy text dummy text dummy text dummy text dummy text dummy text dummy text dummy text dummy text dummy text dummy text dummy text dummy text </p>
+    <label class="text-muted">paragraph with 'lead' class</label> 
+
+    <br><br>
+
+    <p class="h1">dummy text dummy text dummy text dummy text dummy text dummy text dummy text dummy text dummy text dummy text dummy text dummy text dummy text dummy text dummy text dummy text</p> <br>
+
+    <p class="h2">dummy text dummy text dummy text dummy text dummy text dummy text dummy text dummy text dummy text dummy text dummy text dummy text dummy text dummy text dummy text dummy text</p> <br>
+
+    <p class="h3">dummy text dummy text dummy text dummy text dummy text dummy text dummy text dummy text dummy text dummy text dummy text dummy text dummy text dummy text dummy text dummy text</p>
+
+    <label class="text-muted">p tags with heading-classes</label>
+
+    <br><br>
+
+    <label style="font-family: 'Courier Prime', monospace; font-size: 30px; color: #8C8C8C;">paragraphs with heading classes(h1 to h6). the heading sizes can alter the paragraphs font-size</label> 
+        </div>  		
+   </div> 	
+  </div>		
+ </div>
+
+      <br>
+      <h1 style="margin-left: 200px; color: #B6C2C5;">'text-muted' part</h1>
+
+ <div class="container">
+  <div class="row"> 
+   <div class="col">
+
+        <div id="text-muted-part">
+   	<!---text muted part-->
+
+         <h3 class="text-muted" style="font-size: 30px;"> this is a <small>dummy text</small> </h3>
+
+         <h3> this is a <small class="text-muted" style="font-size: 30px;">dummy text</small> </h3>
+
+         <h3 class="text-muted" style="font-size: 30px;">this is a <small style="color: black;">dummy text</small></h3>
+
+             <label class="text-muted">'text-muted' tag</label>
+
+             <br><br> 
+
+             <label style="font-family: 'Courier Prime', monospace; font-size: 30px; color: #8C8C8C;">headings(h3) with the 'text-muted' class and small tag</label>
+
+        </div> 
+   </div>
+  </div> 
+ </div>
+
+      <br>
+      <h1 style="margin-left: 200px; color: #B6C2C5;">blockquote part</h1>
+
+ <div class="container">
+  <div class="row">
+   <div class="col">
+   	    <div id="blockquotes">
+
+   	         <blockquote class="blockquote" style="font-size: 30px; font-weight: bold;
+   	         " cite="chrome://newtab"> dummy text dummy text dummy text dummy text dummy text dummy text dummy text dummy text dummy text dummy text dummy text dummy text dummy text dummy text dummy text dummy text 
+       <footer class="blockquote-footer"> this is a dummy text </footer>
+             </blockquote>
+
+                  <blockquote class="blockquote text-right"class="blockquote" style="font-size: 30px; font-weight: bold;"> 
+                  	<p class="mb-0">dummy text dummy text dummy text dummy text dummy text dummy text dummy text dummy text dummy text dummy text dummy text dummy text dummy text dummy text dummy text dummy text</p> 
+       <footer class="blockquote-footer"> <cite title="chrome://newtab"> this is a dummy text 
+       </cite>
+        this is a dummy text </footer>
+     </blockquote>
+
+     <label class="text-muted">two blockquote methods</label>
+     <br><br><br>
+
+     <figure style="font-size: 30px; font-weight: bold;"> <!---imp- follow this blockquote code instead of the above, it works better--->
+  <blockquote class="blockquote" style="font-size: 30px;">
+    <p>a well-known quote, contained in a blockquote element.</p>
+  </blockquote>
+  <figcaption class="blockquote-footer">
+    someone famous in <cite title="Source Title">source title</cite>
+  </figcaption>
+      </figure>
+
+     <label class="text-muted">best blockquote method code</label>
+
+     <br><br>
+
+     <label style="font-family: 'Courier Prime', monospace; font-size: 30px; color: #8C8C8C;">blockquotes are used to give credit to contents taken from public out-sources</label>
+
+   	    </div>	
+   </div>	
+  </div>	
+ </div>
+
+    <br>
+    <h1 style="margin-left: 200px; color: #B6C2C5;">colored text-classes</h1>
+
+ <div class="container">
+  <div class="row">
+   <div class="col">
+  		<div id="colored-text-classes">
+
+  		<p class="text-muted h1" style="font-weight: bold;"> colored texts using different text classes </p>
+
+        <p class="text-primary h1" style="font-weight: bold;"> colored texts using different text classes </p>
+
+        <p class="text-success h1" style="font-weight: bold;"> colored texts using different text classes </p>
+
+        <p class="text-info h1" style="font-weight: bold;"> colored texts using different text classes </p>
+
+        <p class="text-warning h1" style="font-weight: bold;"> colored texts using different text classes </p>
+
+        <p class="text-danger h1" style="font-weight: bold;"> colored texts using different text classes </p>
+
+        <label class="text-muted">text classes that add color(six)</label>
+
+        <br><br>
+
+        <label style="font-family: 'Courier Prime', monospace; font-size: 30px; color: #8C8C8C;">there are quite a few bootstrap fixed classes that, when called on, can change the color or properties of said text element</label>
+  			
+  		</div>		
+   </div>
+  </div>	
+ </div>
+
+ <br>
+    <h1 style="margin-left: 200px; color: #B6C2C5;">normal colored texts</h1>
+
+ <div class="container">
+  <div class="row">
+   <div class="col">
+  		<div id="normal-colored-text">
+
+        <p class="h1" style="font-weight: bold; color: #3C4A41;"> colored texts using normal inline css </p>
+        <p class="h1" style="font-weight: bold; color: #b6beb7;"> colored texts using normal inline css </p>
+        <p class="h1" style="font-weight: bold; color: #869295;"> colored texts using normal inline css </p>
+        <p class="h1" style="font-weight: bold; color: #c0cdcf;"> colored texts using normal inline css </p> <br>
+
+        <p class="h1" style="font-weight: bold; color: #93b892;"> colored texts using normal inline css </p>
+        <p class="h1" style="font-weight: bold; color: #B7B78A;"> colored texts using normal inline css </p>
+        <p class="h1" style="font-weight: bold; color: #595a32;"> colored texts using normal inline css </p>
+        <p class="h1" style="font-weight: bold; color: #BC6C25;"> colored texts using normal inline css </p> <br>
+
+        <p class="h1" style="font-weight: bold; color: #cacfc1;"> colored texts using normal inline css </p>
+        <p class="h1" style="font-weight: bold; color: #c6b9b8;"> colored texts using normal inline css </p>
+        <p class="h1" style="font-weight: bold; color: #c5d1cb;"> colored texts using normal inline css </p>
+        <p class="h1" style="font-weight: bold; color: #ae99bf;"> colored texts using normal inline css </p>
+
+        <label class="text-muted">text colored by inline css</label>
+        
+        <br><br>
+
+        <label style="font-family: 'Courier Prime', monospace; font-size: 30px; color: #8C8C8C;">although there are classes that can be used to color texts like the above example, inline css is also an option</label>
+  			
+  		</div>		
+   </div>
+  </div>	
+ </div>
+
+ <br>
+      <h1 style="margin-left: 200px; color: #B6C2C5;">'text-muted' part</h1>
+
+ <div class="container">
+  <div class="row"> 
+   <div class="col">
+
+        <div id="lists-part">
+   	<!---lists part-->
+
+    <ul class="list-unstyled h2">
+        <li>dummy text</li>
+        <li>dummy text</li>
+        <li>dummy text</li>
+        <li>dummy text</li>
+           <ul>
+        <li>dummy text</li>
+        <li>dummy text</li>   
+           </ul>       
+    </ul>
+
+    <br>
+
+    <ul class="list-unstyled h1" style="color: ;">
+        <ul>
+        <li>dummy text</li>    
+           </ul>
+        <li>dummy text</li>
+        <ul>
+        <li>dummy text</li>    
+           </ul> 
+        <li>dummy text</li>
+        <ul>
+        <li>dummy text</li>    
+           </ul>       
+    </ul>    
+
+    <br>
+
+    <ul class="list-inline h3">
+        <li>dummy text</li>
+        <li>dummy text</li>
+        <li>dummy text</li>
+        <li>dummy text</li>
+        </ul>
+
+ 
+    <label class="text-muted">listed items</label> 
+    <br><br>
+    <label style="font-family: 'Courier Prime', monospace; font-size: 30px; color: #8C8C8C;">unordered lists can be adjusted into ordered lists if needed</label>
+
+        </div> 
+   </div>
+  </div> 
+ </div>
+
+      <br>
+      <h1 style="margin-left: 200px; color: #B6C2C5;">text-decoration part</h1>
+
+ <div class="container">
+  <div class="row">
+   <div class="col">
+        <div id="text-decoration-part">
+
+        <label class="h2 text-decoration-overline fw-normal">this is a dummy text(overline)</label> <br>
+        <label class="h2 text-decoration-line-through fw-normal">this is a dummy text(line-through)</label> <br>
+        <label class="h2 text-decoration-underline fw-normal">this is a dummy text(underline)</label> <br>
+
+        <label class="text-muted">all three 'text-decoration' classes</label> 
+        <br><br>
+        <label style="font-family: 'Courier Prime', monospace; font-size: 30px; color: #8C8C8C;">these can be used to decorate texts</label>
+
+        <br><br><br>
+
+        <label class="h2 fst-italic">this is a dummy text(italic)</label>
+        <br>
+        <label class="text-muted">this 'italic' class can be used to emphasize certain texts</label>
+
+        </div>
+   </div>   
+  </div>   
+ </div>
+
+ <br>
+      <h1 style="margin-left: 200px; color: #B6C2C5;">'font-weight' classes(fw) part</h1>
+
+ <div class="container">
+  <div class="row">
+   <div class="col">
+        <div id="font-weight-classes-part">
+
+        <label class="h2 fw-lighter">this is a dummy text(fw-lighter)</label> <br>
+        <label class="h2 fw-light">this is a dummy text(fw-light)</label> <br>
+        <label class="h2 fw-normal">this is a dummy text(fw-normal)</label> <br>
+        <label class="h2 fw-bold">this is a dummy text(fw-bold)</label> <br>
+        <label class="h2 fw-bolder">this is a dummy text(fw-bolder)</label> <br>   
+        
+        </div>
+   </div>   
+  </div>   
+ </div>   
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+</body>
+</html>
